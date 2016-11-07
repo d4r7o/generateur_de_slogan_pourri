@@ -221,7 +221,7 @@ else $buffer = null;
 
 $buffer .= $dequoiquonparle;
 
-return $buffer;
+return ucfirst($buffer);
 } // fin de la fonction
 
 ?>
